@@ -5,7 +5,7 @@
 Using composer:
 
 ```
-php composer.phar require jkh/apache-log-parser-library:~1.0
+composer require jkh/apache-log-parser-library
 ```
 
 ## Usage

@@ -1,0 +1,31 @@
+{
+  "name": "jkh/apache-log-parser-library",
+  "type": "library",
+  "description": "apache parser library",
+  "keywords": [
+    "parser",
+    "apache",
+    "logs"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jaouher Kharrat",
+      "email": "jkharrat.eqs@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "jkh": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "jkh\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}

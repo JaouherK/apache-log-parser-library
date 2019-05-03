@@ -80,7 +80,6 @@ class ApacheLogParser
         return $entry;
     }
 
-
     /**
      * @param $format
      */
